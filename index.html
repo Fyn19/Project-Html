@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raisa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Contoh</h1>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="images/foto1.jpeg" alt="Foto 1" class="foto">
+                <div class="romantic-slide">
+                    <p>"Love is when someone else's happiness is more important than your own."</p>
+                    <p>"Every second with you is a beautiful eternity."</p>
+                    <p>"You are the reason behind my smile."</p>
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <audio id="background-audio" loop>
+            <source src="audio/about_you.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
